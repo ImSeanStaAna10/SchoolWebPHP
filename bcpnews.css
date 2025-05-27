@@ -1,0 +1,216 @@
+.container {
+    display: flex;
+    justify-content: space-between; /* Ensures spacing between main content and recent posts */
+    align-items: flex-start;
+    margin: 10px;
+}
+
+.main-content {
+    width: 70%; /* Adjust based on your layout */
+}
+
+.recent-posts{
+    margin-top: 10px;
+    border-radius: 12px;
+    box-shadow: black;
+    font-size: medium
+}
+
+.recent-posts ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.recent-posts li {
+    display: flex;
+    align-items: center; /* Aligns image and text side by side */
+    gap: 10px; /* Space between image and text */
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.recent-posts img {
+    width: 50px; /* Adjust image size */
+    height: 50px;
+    border-radius: 5px; /* Optional: Makes images slightly rounded */
+    object-fit: cover; /* Ensures images look good */
+}
+
+.post-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.recent-posts a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.recent-posts a:hover {
+    text-decoration: underline;
+}
+
+.recent-posts p {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0 0;
+}
+
+.container{
+    gap: 10px;
+}
+
+.post-container {
+    width: 100%;
+    max-width: 700px; /* Adjust width as needed */
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Banner image */
+.post-banner {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Content inside the container */
+.post-content {
+    padding: 20px;
+}
+
+/* Title */
+.post-content h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Meta info section */
+.meta-container {
+    display: flex;
+    justify-content: space-between; /* Spaces items evenly */
+    align-items: center; /* Aligns items vertically */
+    width: 100%; /* Ensures it takes full width */
+}
+
+.meta-info {
+    display: flex;
+    align-items: center; /* Aligns icon and text */
+    gap: 8px; /* Space between icon and text */
+}
+
+.meta-info .icon {
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* Description text */
+.post-content p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/* Read More Button */
+.read-more {
+    display: inline-block;
+    background: #0073e6;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+   
+}
+
+.read-more:hover {
+    background: #005bb5;
+
+}
+
+
+
+
+
+
+
+
+.post-container {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    max-width: 650px;
+}
+
+.post-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.post-content {
+    flex: 1;
+    padding: 15px 0;
+}
+
+.meta-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: gray;
+}
+
+.read-more-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.read-more {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.read-more:hover {
+    background-color: #005f7f;
+}
+
+
+.recents{
+    
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,171 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #eef3f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Header */
+.header {
+    background-color: #0a2a66;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.header h2 {
+    color: white;
+    font-weight: 600;
+}
+
+/* Logo */
+.logo {
+    width: 80px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+/* Main Content */
+.main-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+/* Card Container */
+.container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* Card Styling */
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #38a169;
+    text-align: center;
+    width: 350px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Card Icon */
+.icon {
+    background: #c6f6d5;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 10px;
+}
+
+.icon i {
+    
+    font-size: 24px;
+    color: #2f855a
+    
+}
+
+/* Headings */
+h2 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/* Horizontal Line */
+hr {
+    margin: 10px auto;
+    width: 80%;
+    height: 2px;
+    background: #2f855a;
+    border: none;
+}
+
+/* Paragraph */
+p {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: left;
+}
+
+/* List Styling */
+ul {
+    text-align: left;
+    list-style: none;
+    margin-top: 10px;
+}
+
+ul li {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+ul li::before {
+    content: "✔";
+    color: green;
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+/* Button Styling */
+button {
+    background-color: #38a169;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 100%;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #2f855a;
+}
+/* Footer Styling */
+footer {
+    text-align: center; /* Center the text */
+    width: 100%;
+    padding: 10px;
+    background: #002147;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
