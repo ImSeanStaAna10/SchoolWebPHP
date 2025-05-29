@@ -1,13 +1,12 @@
 <?php 
 include 'header.php'; 
+//import db connection
 
-// Fetch settings from the database
 include_once 'db_connect.php';
-include_once 'settings.php'; // Assuming settings.php loads the settings as before
-$settings = load_settings($conn); // Fetch all settings
+include_once 'settings.php'; 
+$settings = load_settings($conn); 
 
 ?>
-
 
 <link rel="stylesheet" href="styles.css">
 

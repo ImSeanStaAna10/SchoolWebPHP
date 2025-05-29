@@ -1,10 +1,10 @@
 <?php
-// Load the settings from the database
-include_once 'db_connect.php';
-include_once 'settings.php'; // Assuming settings.php loads the settings as before
-$settings = load_settings($conn); // Fetch all settings
 
-// Define useful links, campuses, contact info, and social media links
+include_once 'db_connect.php';
+include_once 'settings.php'; 
+$settings = load_settings($conn); 
+
+
 $usefulLinks = [
     "Home" => "#index.php",
     "BCP College LMS" => "#https://bcpeducollege.elearningcommons.com/login/index.php",
@@ -83,6 +83,8 @@ $socialLinks = [
     <div class="footer-bottom" style="background-color: <?= $settings['footer_background']; ?>; color: <?= $settings['footer_text_color']; ?>;">
         <p>© Copyright <strong>BCP</strong>. All Rights Reserved</p>
         <p>Developed by BCP MIS Department</p>
+        <p>Develop by Sean Sta Ana </p>
+        
     </div>
     <script src="navscroll.js"></script>
 </footer>
