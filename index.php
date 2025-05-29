@@ -15,7 +15,7 @@ $settings = load_settings($conn);
 <section class="hero" style="background-color: <?php echo $settings['background_color']; ?>;">
     <div class="hero-content" style="color: <?php echo $settings['body_text_color']; ?>;">
         <h1 id="title" style="font-family: <?php echo $settings['font_family']; ?>; font-size: <?php echo $settings['header_font_size']; ?>;">
-            Welcome to Bestlink College of the Philippines
+            Welcome to Taguig City University
         </h1>
         <p id="subtitle">
             <?php echo "At Bestlink College of the Philippines, we provide and promote quality education with modern and unique techniques to enhance the skills and knowledge of our students, making them globally competitive and productive citizens."; ?>
